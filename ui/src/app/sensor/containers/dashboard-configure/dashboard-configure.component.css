@@ -1,0 +1,14 @@
+.dashboard-configure .rowItems {
+  margin: 1px;
+  justify-content: center;
+}
+
+.item {
+  padding: 10px;
+}
+
+.btr {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+}

@@ -1,0 +1,8 @@
+.dashboard-presentation {
+  margin-top: 70px;
+}
+
+.dashboard-presentation .rowdash {
+  margin: 1px;
+  justify-content: space-around;
+}

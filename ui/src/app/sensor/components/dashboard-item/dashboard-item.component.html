@@ -1,0 +1,12 @@
+<div class="dashboard-item">
+  <h5>
+    <img src="assets/img/{{ dashItem.image }}" width="32px" />{{
+      dashItem.name
+    }}
+  </h5>
+  <div class="value">
+    {{ value$ | async }}
+    <span class="unit" *ngIf="dashItem.event === 'humidityEvents'"> %</span>
+    <span class="unit" *ngIf="dashItem.event === 'temperatureEvents'"> °C</span>
+  </div>
+</div>

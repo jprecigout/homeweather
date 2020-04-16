@@ -1,0 +1,14 @@
+<div class="app-dashboard-configure" [class.selected]="dashConfItem.activate">
+  <h5>
+    <img src="assets/img/{{ dashConfItem.image }}" width="128px" />
+  </h5>
+  <p>{{ dashConfItem.name }}</p>
+  <div class="button-row">
+    <button mat-mini-fab color="primary" (click)="clickSelected()">
+      <mat-icon>
+        <div *ngIf="dashConfItem.activate">{{ iconDel }}</div>
+        <div *ngIf="!dashConfItem.activate">{{ iconAdd }}</div>
+      </mat-icon>
+    </button>
+  </div>
+</div>

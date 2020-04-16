@@ -1,0 +1,19 @@
+::ng-deep .bkg-success {
+  background-color: #4cb56d;
+  color: #535455;
+  font-size: 25px;
+  font-weight: bold;
+}
+::ng-deep .bkg-error {
+  background-color: #e51048;
+  color: #535455;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+::ng-deep .bkg-info {
+  background-color: #ffc249;
+  color: #535455;
+  font-size: 25px;
+  font-weight: bold;
+}

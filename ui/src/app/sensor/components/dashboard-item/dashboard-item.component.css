@@ -1,0 +1,22 @@
+.dashboard-item {
+  padding: 30px;
+  background: #0677a1;
+  color: white;
+  font-family: "Literata", serif;
+  margin: 5px;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+
+.dashboard-item h5 img {
+  padding-right: 5px;
+}
+
+.dashboard-item .value {
+  font-size: 250%;
+  text-align: center;
+}
+
+.dashboard-item .value .unit {
+  font-size: 2.25rem;
+}

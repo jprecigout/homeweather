@@ -1,0 +1,12 @@
+<button mat-fab color="primary" (click)="click()" class="btr">
+  <i class="far fa-save fa-2x"></i>
+</button>
+<div class="container-fluid dashboard-configure">
+  <div class="row rowItems">
+    <div *ngFor="let dashItem of dash?.dashItems" class="item">
+      <app-dashboard-configure-item
+        [dashConfItem]="dashItem"
+      ></app-dashboard-configure-item>
+    </div>
+  </div>
+</div>

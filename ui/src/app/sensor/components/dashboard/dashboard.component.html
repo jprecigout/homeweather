@@ -1,0 +1,7 @@
+<div class="container-fluid dashboard">
+  <div class="row rowItems">
+    <div *ngFor="let dashItem of dashboard?.dashItems | activateFilter">
+      <app-dashboard-item [dashItem]="dashItem"></app-dashboard-item>
+    </div>
+  </div>
+</div>
