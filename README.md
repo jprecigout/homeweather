@@ -5,12 +5,15 @@
 </p>
 
 The front of the application is write with Angular
+
 The back of the application is write with Nest.js and Mongodb
 
-The back application use Grove Pi sensor https://www.dexterindustries.com/grovepi/
+The back application use Grove Pi sensor :
 
 <p align="center">
     <img src="https://github.com/jprecigout/homeweather/blob/master/img/sensor.jpeg" width="25%">
+    
+    https://www.dexterindustries.com/grovepi/
 </p>
 
 ## Build image
