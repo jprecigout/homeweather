@@ -4,4 +4,14 @@
     <img src="https://github.com/jprecigout/homeweather/blob/master/ui/src/assets/img/house.svg" >
 </p>
 
-## Development server
+## Build image
+
+```bash
+$ docker-compose build
+```
+
+## Run image
+
+```bash
+$ docker-compose up
+```
