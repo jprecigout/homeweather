@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  mongodb:
+    image: mongo #andresvidal/rpi3-mongodb3
+    volumes:
+      - ~/Documents/perso/data/mongo/testHomeW:/data/db #/data/db:/data/db
+      - ~/Documents/perso/data/mongo/testHomeW:/data/configdb #/data/configdb:/data/configdb
+    ports:
+      - 27017:27017
+      - 28017:28017
+  homeweather-core:
+    #image: homeweather-core:1.2
+    build: ./core/
+    environment:
+      NODE_ENV: production
+    privileged: true
+    ports:
+      - 3000:3000
+      - 3001:3001
+    depends_on:
+      - mongodb
+  homeweather-ui:
+    #image: homeweather-ui:1.1
+    build: ./ui
+    environment:
+      NODE_ENV: stage
+    ports:
+      - 8888:80
+    #   build:
+    #     context: .
+    #     #dockerfile: ./api/docker/local/Dockerfile
+    #     dockerfile: ./api/docker/base/Dockerfile
