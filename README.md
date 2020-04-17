@@ -1,4 +1,8 @@
-# Homeweather Ui
+# Homeweather
+
+<p align="center">
+    <img src="https://github.com/jprecigout/homeweather/blob/master/ui/src/assets/img/house.svg" width="25%>
+</p>
 
 ## Development server
 
