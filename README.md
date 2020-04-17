@@ -6,9 +6,16 @@
 
 The front of the application is write with **Angular**
 
-The back of the application is write with **Nest.js** and **Mongodb**
+- Authentication
+- Temperature and humidity display on the web
 
-The back application use **Grove Pi sensor** (https://www.dexterindustries.com/grovepi/) :
+The back of the application is write with **Nest.js** and **MongoDB**
+
+- Acquisition of sensor measurements
+- Display on the LCD screen
+- Saving measurements in database
+
+The back application use **Raspberry Pi 3** and **Grove Pi sensor** (https://www.dexterindustries.com/grovepi/) :
 
 <p align="center">
     <img src="https://github.com/jprecigout/homeweather/blob/master/img/sensor.jpeg" width="25%">
