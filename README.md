@@ -12,7 +12,7 @@ The back application use **Grove Pi sensor** (https://www.dexterindustries.com/g
 
 <p align="center">
     <img src="https://github.com/jprecigout/homeweather/blob/master/img/sensor.jpeg" width="25%">
-    <img src="https://github.com/jprecigout/homeweather/blob/master/img/box.jpg" width="25%">
+    <img src="https://github.com/jprecigout/homeweather/blob/master/img/box.png" width="25%">
 </p>
 
 ## Build application
