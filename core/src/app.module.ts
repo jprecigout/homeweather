@@ -10,11 +10,7 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    // Local
-    //MongooseModule.forRoot('mongodb://localhost/homeweather'),
     MongooseModule.forRoot(process.env.MONGO_DB_URL),
-    // Rasp
-    //MongooseModule.forRoot('mongodb://mongodb/homeweather'),
     SensorModule,
     AuthModule,
     DashboardModule,
